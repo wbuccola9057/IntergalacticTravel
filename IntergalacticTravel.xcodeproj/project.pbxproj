@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E763B9801BED04D60080BC3C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763B97F1BED04D60080BC3C /* ImageViewController.swift */; };
 		E7D11C761BEBC3EF0023AAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D11C751BEBC3EF0023AAFD /* AppDelegate.swift */; };
 		E7D11C781BEBC3EF0023AAFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D11C771BEBC3EF0023AAFD /* ViewController.swift */; };
 		E7D11C7B1BEBC3EF0023AAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D11C791BEBC3EF0023AAFD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E763B97F1BED04D60080BC3C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 		E7D11C721BEBC3EF0023AAFD /* IntergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D11C751BEBC3EF0023AAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D11C771BEBC3EF0023AAFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E7D11C751BEBC3EF0023AAFD /* AppDelegate.swift */,
 				E7D11C771BEBC3EF0023AAFD /* ViewController.swift */,
 				E7D11C791BEBC3EF0023AAFD /* Main.storyboard */,
+				E763B97F1BED04D60080BC3C /* ImageViewController.swift */,
 				E7D11C7C1BEBC3EF0023AAFD /* Assets.xcassets */,
 				E7D11C7E1BEBC3EF0023AAFD /* LaunchScreen.storyboard */,
 				E7D11C811BEBC3F00023AAFD /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D11C781BEBC3EF0023AAFD /* ViewController.swift in Sources */,
+				E763B9801BED04D60080BC3C /* ImageViewController.swift in Sources */,
 				E7D11C761BEBC3EF0023AAFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				E7D11C9C1BEBC3F00023AAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D11C9D1BEBC3F00023AAFD /* Build configuration list for PBXNativeTarget "IntergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E7D11C9F1BEBC3F00023AAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7D11CA01BEBC3F00023AAFD /* Build configuration list for PBXNativeTarget "IntergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E7D11CA21BEBC3F00023AAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
