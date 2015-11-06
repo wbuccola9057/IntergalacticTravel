@@ -17,15 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAM-d5-l7d">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAM-d5-l7d">
                                 <rect key="frame" x="247" y="150" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="swG-va-6hX"/>
+                                </constraints>
                                 <state key="normal" title="Visit Red Dwarf"/>
                                 <connections>
                                     <segue destination="VSr-Mu-bnE" kind="show" id="4fW-mr-D9O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB7-mv-Zip">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB7-mv-Zip">
                                 <rect key="frame" x="252" y="237" width="96" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="E51-0s-d5c"/>
+                                </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
                                 <connections>
                                     <segue destination="VSr-Mu-bnE" kind="show" id="BBX-Oe-JX8"/>
@@ -33,6 +39,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eB7-mv-Zip" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NDb-G1-m6n"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eB7-mv-Zip" secondAttribute="bottom" constant="333" id="Sc5-z0-iEE"/>
+                            <constraint firstItem="NAM-d5-l7d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="86" id="VIA-QE-gHl"/>
+                            <constraint firstItem="eB7-mv-Zip" firstAttribute="top" secondItem="NAM-d5-l7d" secondAttribute="bottom" constant="57" id="eb1-I4-8U7"/>
+                            <constraint firstItem="NAM-d5-l7d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jkC-Vo-hd5"/>
+                            <constraint firstItem="eB7-mv-Zip" firstAttribute="top" secondItem="NAM-d5-l7d" secondAttribute="bottom" constant="57" id="tMm-GZ-GO4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Intergalactic Travel, Inc" id="dlP-2B-7ot"/>
                 </viewController>
