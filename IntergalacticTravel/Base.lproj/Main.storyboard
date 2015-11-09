@@ -24,7 +24,7 @@
                                 </constraints>
                                 <state key="normal" title="Visit Red Dwarf"/>
                                 <connections>
-                                    <segue destination="VSr-Mu-bnE" kind="show" id="4fW-mr-D9O"/>
+                                    <segue destination="VSr-Mu-bnE" kind="show" identifier="redDwarfSegue" id="4fW-mr-D9O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB7-mv-Zip">
@@ -34,7 +34,7 @@
                                 </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
                                 <connections>
-                                    <segue destination="VSr-Mu-bnE" kind="show" id="BBX-Oe-JX8"/>
+                                    <segue destination="VSr-Mu-bnE" kind="show" identifier="blueStar" id="BBX-Oe-JX8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -54,10 +54,10 @@
             </objects>
             <point key="canvasLocation" x="1117" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Image View Controller-->
         <scene sceneID="R2x-V0-DuM">
             <objects>
-                <viewController id="VSr-Mu-bnE" sceneMemberID="viewController">
+                <viewController id="VSr-Mu-bnE" customClass="ImageViewController" customModule="IntergalacticTravel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gzt-74-ksH"/>
                         <viewControllerLayoutGuide type="bottom" id="aN3-R2-d4b"/>
